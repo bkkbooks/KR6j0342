@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0342/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0342/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說普賢菩薩陀羅尼經
+  identifiers:
+    krp: KR6j0342
+    cbeta: T20n1127
+    cbeta_old_id: T20n1127
+    authorityid: CA0002501
+    json_key: T1127
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1127.xml
+    old_id: T20n1127
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0342_000-T.yaml, hash: 'sha256:0700bb1dc44c9568bc0653c56b80d90e0303e42ed67befe61ef5b448d65c7154'}
+  - {seq: 1, filename: KR6j0342_001-T.yaml, hash: 'sha256:9780ffff3856ec59d66f22376b7b1bc687be6f8a2b3d9f268642eac2e8c10003'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0342_000-T.markers.yaml, hash: 'sha256:85dcc4fd2b388d8ebbda8f62bf126148f6504f1fe0bc01397bc60b14f6592c94'}
+  - {seq: 1, role: markers, filename: assets/KR6j0342_001-T.markers.yaml, hash: 'sha256:6f595e3f302c32fafa54955bae718e579d0e20d8304b927a43b131b27f09c7b0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0342_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 997
+  label: 佛說普賢菩薩陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:06eddad6f9e3c1c8b932027e15de95d822665efc9d020c79d2ef0c8b7abd2e8e
