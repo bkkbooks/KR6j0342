@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0342_000.yaml, hash: 'sha256:0700bb1dc44c9568bc0653c56b80d90e0303e42ed67befe61ef5b448d65c7154'}
-  - {seq: 1, filename: KR6j0342_001.yaml, hash: 'sha256:878aff86223510925c4cb92385f80ad89c2744ace9a5d872fcf46b400e7cc580'}
+  - {seq: 1, filename: KR6j0342_001.yaml, hash: 'sha256:9780ffff3856ec59d66f22376b7b1bc687be6f8a2b3d9f268642eac2e8c10003'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0342_001.markers.yaml, hash: 'sha256:094f0df163b50ab6fdfd1d31eedd3c0a31e1cebb0dc1460f9c73723e293f36c8'}
+  - {seq: 0, role: markers, filename: assets/KR6j0342_000.markers.yaml, hash: 'sha256:3f5d5445b732dd8e307c398315b608baaff5410ad8b153f595c5af10b78a1bc6'}
+  - {seq: 1, role: markers, filename: assets/KR6j0342_001.markers.yaml, hash: 'sha256:2acc9fc5f72f92a1f90bd9dd6856fd9ec7a88754f7e4ed3f2fc9bf8b9285cf53'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說普賢菩薩陀羅尼經
   type: juan
   level: 1
-hash: sha256:8b33e55e859cb1ec833f528a9f10dc2463b951dea30a5fc9546b6c68c1108a80
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:31d50541cd5e1b46af74e0b4e12924ede6e7a239390943070bc043c406e5a0f3
